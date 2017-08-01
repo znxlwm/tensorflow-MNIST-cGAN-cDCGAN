@@ -24,7 +24,7 @@ Tensorflow implementation of condition Generative Adversarial Networks (cGAN) [1
 <td> cGAN after 100 epochs </td>
 </tr>
 <tr>
-<td><img src = 'MNIST_cGAN_results/raw_MNIST.png'>
+<td><img src = 'MNIST_cGAN_results/raw_MNIST_10.png'>
 <td><img src = 'MNIST_cGAN_results/MNIST_cGAN_100.png'>
 </tr>
 </table>
