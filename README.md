@@ -1,5 +1,5 @@
 # tensorflow-MNIST-cGAN
-Tensorflow implementation of condition Generative Adversarial Networks (cGAN) [1] for MANIST [2] dataset.
+Tensorflow implementation of conditional Generative Adversarial Networks (cGAN) [1] and conditional Deep Convolutional Generative Adversarial Networks (cDCGAN) for MANIST [2] dataset.
 
 * you can download
   - MNIST dataset: http://yann.lecun.com/exdb/mnist/
@@ -9,10 +9,12 @@ Tensorflow implementation of condition Generative Adversarial Networks (cGAN) [1
 
 <table align='center'>
 <tr align='center'>
-<td> cGAN</td>
+<td> cGAN </td>
+<td> cDCGAN </td>
 </tr>
 <tr>
 <td><img src = 'MNIST_cGAN_results/MNIST_cGAN_generation_animation.gif'>
+<td><img src = 'MNIST_cDCGAN_results/MNIST_cDCGAN_generation_animation.gif'>
 </tr>
 </table>
 
@@ -22,20 +24,31 @@ Tensorflow implementation of condition Generative Adversarial Networks (cGAN) [1
 <tr align='center'>
 <td> MNIST </td>
 <td> cGAN after 100 epochs </td>
+<td> cDCGAN after 30 epochs </td>
 </tr>
 <tr>
 <td><img src = 'MNIST_cGAN_results/raw_MNIST_10.png'>
 <td><img src = 'MNIST_cGAN_results/MNIST_cGAN_100.png'>
+<td><img src = 'MNIST_cDCGAN_results/MNIST_cDCGAN_30.png'>
 </tr>
 </table>
 
 * Training loss
-  * cGAN
 
-![Loss](MNIST_cGAN_results/MNIST_cGAN_train_hist.png)
+<table align='center'>
+<tr align='center'>
+<td> cGAN </td>
+<td> cDCGAN </td>
+</tr>
+<tr>
+<td><img src = 'MNIST_cGAN_results/MNIST_cGAN_train_hist.png'>
+<td><img src = 'MNIST_cDCGAN_results/MNIST_cDCGAN_train_hist.png'>
+</tr>
+</table>
 
 * Learning time
     * MNIST cGAN - Avg. per epoch: 3.21 sec; Total 100 epochs: 1800.37 sec
+    * MNIST cDCGAN - Avg. per epoch: 53.07 sec; Total 30 epochs: 2072.29 sec
 
 ## Development Environment
 
@@ -54,4 +67,4 @@ Tensorflow implementation of condition Generative Adversarial Networks (cGAN) [1
 
 (Full paper: https://arxiv.org/pdf/1411.1784.pdf)
 
-[3] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. "Gradient-based learning applied to document recognition." Proceedings of the IEEE, 86(11):2278-2324, November 1998.
+[2] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. "Gradient-based learning applied to document recognition." Proceedings of the IEEE, 86(11):2278-2324, November 1998.
