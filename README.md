@@ -4,6 +4,11 @@ Tensorflow implementation of conditional Generative Adversarial Networks (cGAN) 
 * you can download
   - MNIST dataset: http://yann.lecun.com/exdb/mnist/
  
+ ## Implementation details
+* GAN
+
+![GAN](tensorflow_cGAN.png)
+ 
 ## Resutls
 * Generate using fixed noise (fixed_z_)
 
