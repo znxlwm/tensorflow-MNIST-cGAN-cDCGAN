@@ -5,7 +5,7 @@ Tensorflow implementation of conditional Generative Adversarial Networks (cGAN) 
   - MNIST dataset: http://yann.lecun.com/exdb/mnist/
  
  ## Implementation details
-* GAN
+* cGAN
 
 ![GAN](tensorflow_cGAN.png)
  
