@@ -1,4 +1,4 @@
-# tensorflow-MNIST-cGAN
+# tensorflow-MNIST-cGAN-cDCGAN
 Tensorflow implementation of conditional Generative Adversarial Networks (cGAN) [1] and conditional Deep Convolutional Generative Adversarial Networks (cDCGAN) for MANIST [2] dataset.
 
 * you can download
